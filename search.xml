@@ -156,7 +156,7 @@
   <entry>
     <title>刨根字符串之后缀数组</title>
     <url>/2020/05/01/%E5%88%A8%E6%A0%B9%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B9%8B%E5%90%8E%E7%BC%80%E6%95%B0%E7%BB%84/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>刨根系列开篇。主要记录信息学奥赛学习笔记。<strong>内容尽可能深挖，不然毫无意义。</strong>无信奥基础？要看这个自己去学。有信奥基础？哪怕有一点，我就要让你看懂它。</p>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>刨根系列开篇。主要记录信息学奥赛学习笔记。无信奥基础？要看这个自己去学。有信奥基础？哪怕有一点，我就要让你看懂它。</p>
 <a id="more"></a>
 <h2 id="后缀数组"><a href="#后缀数组" class="headerlink" title="后缀数组"></a>后缀数组</h2><h3 id="友情提示"><a href="#友情提示" class="headerlink" title="友情提示"></a>友情提示</h3><p>以下内容最重要的是不要搞混后缀的<strong>编号</strong>与<em>排名</em>与<em>排名</em>对应的<strong>编号</strong>与<strong>编号</strong>对应的<em>排名</em>。</p>
 <p>觉得自己没看明白？多半是你搞混了，换着看看。</p>
