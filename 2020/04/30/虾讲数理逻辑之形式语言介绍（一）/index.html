@@ -1228,7 +1228,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6b78ff;
+  background: #b8f0c3;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2364,17 +2364,6 @@ mjx-container + br {
   text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
   vertical-align: middle;
 }
-.main-menu .menu-item-active a::after {
-  background: #bbb;
-  border-radius: 50%;
-  content: ' ';
-  height: 6px;
-  margin-top: -3px;
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  width: 6px;
-}
 .sub-menu {
   background: var(--content-bg-color);
   border-bottom: 1px solid #ddd;
@@ -2503,6 +2492,9 @@ mjx-container + br {
 }
 .links-of-blogroll-item {
   padding: 0;
+}
+.utterances {
+  max-width: unset;
 }
 </style><noscript>
   <style>
@@ -2686,9 +2678,14 @@ mjx-container + br {
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">7</span></a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">5</span></a>
 
   </li>
   </ul>
@@ -2724,7 +2721,7 @@ mjx-container + br {
     <span hidden="" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="RebelPotato">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="Debug in progress...">
     </span>
 
     <span hidden="" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -2832,6 +2829,13 @@ mjx-container + br {
 
           </div>
           
+    
+  
+  <div class="comments">
+  <script src="https://utteranc.es/client.js" repo="RebelPotato/RPcomments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async=""></script>
+  </div>
+  
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -2885,7 +2889,7 @@ mjx-container + br {
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">RebelPotato</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">Debug in progress...</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
