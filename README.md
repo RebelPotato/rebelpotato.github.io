@@ -1,3 +1,5 @@
-# What
+# Source for my site
 
-Pages with stuff you can read or play with, by me.
+Well at least an index of my site.
+
+Always a work in progress...

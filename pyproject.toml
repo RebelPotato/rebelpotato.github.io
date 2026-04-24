@@ -1,0 +1,13 @@
+[project]
+name = "rebelpotato-github-io"
+version = "0.1.0"
+description = "Personal site"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "doit>=0.37.0",
+    "doit-watch>=0.1.0",
+]
+
+[tool.doit.plugins.command]
+watch = "doit_watch:Watch"
