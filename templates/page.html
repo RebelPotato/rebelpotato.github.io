@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html $if(zh) $lang="zh-Hans" $else$lang="en" $endif$>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$title$</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <article>
+    <h1>$title$</h1>
+    <div>$if(zh)$创建于：$else$Created:$endif$ <time datetime="$created-on$">$created-on$</time></div>
+    <div>$if(zh)$更新于：$else$Updated:$endif$ <time datetime="$updated-on$">$updated-on$</time></div>
+    <hr>
+    $body$
+  </article>
+</body>
+
+</html>

@@ -1,3 +1,12 @@
-# Cards
+---
+title: Cards
+en: true
+created-on: 2026-04-25
+updated-on: 2026-04-25
+---
 
-Curated index of cards
+Pieces of thoughts, mainly for my own use. Mostly in Chinese.
+
+## NEW stuff
+
+- 2026-04-25 [这些卡片是大乱炖](about-cards-zh.md)
