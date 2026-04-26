@@ -43,4 +43,5 @@ def task_build():
                 ],
                 "file_dep": file_deps,
                 "targets": targets,
+                "clean": True,
             }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celtic Knot Resources</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <article>
+    <h1>Celtic Knot Resources</h1>
+    <div>Created: <time datetime="2026-04-26">2026-04-26</time></div>
+    <div>Updated: <time datetime="2026-04-26">2026-04-26</time></div>
+    <hr>
+    <p>I’m doing some research on how to draw celtic knots (with
+    computers, preferably), and it turns out much information about this
+    subject is scattered. I’ll try and list some interesting attempts
+    here:</p>
+    <h2 id="the-celtic-knot-font">The Celtic Knot Font</h2>
+    <p><a href="https://www.clanbadge.com/knots.htm">This</a> is simple
+    and clever! The font transforms each character into a square tile
+    that can connect to its neighbour at its edges, similar to a
+    trunchet tile.</p>
+    <figure>
+    <img src="font.png" alt="The font in question" />
+    <figcaption aria-hidden="true">The font in question</figcaption>
+    </figure>
+    <p>Making it a font makes it genuinely fun to use and also trivial
+    to color. These patterns can be mixed and matched to make impressive
+    murals like this (by Henry Segerman):</p>
+    <figure>
+    <img src="http://www.segerman.org/misc_art/knot_puzzle.gif"
+    alt="Henry Segerman’s impressive knot puzzle/mural" />
+    <figcaption aria-hidden="true">Henry Segerman’s impressive knot
+    puzzle/mural</figcaption>
+    </figure>
+    <p>This seems to date back to the early 2000s, and is the earliest
+    attempt that I’ve found.</p>
+    <h2 id="knots-zoo">Knots Zoo</h2>
+    <p><a href="https://fontlibrary.org/en/font/knots">The Knots Zoo</a>
+    font uses pretty much the same idea, except with less tiles and more
+    ornament:</p>
+    <figure>
+    <img src="result.png" alt="Look at these little heads" />
+    <figcaption aria-hidden="true">Look at these little
+    heads</figcaption>
+    </figure>
+    <p>The character-to-grid mapping is more compositional. For example,
+    the top row of the simple knot <code>qwe</code> in the clanbadge
+    font would be <code>OXXOOXXXOOXX</code> in Knots Zoo. See <a
+    href="https://github.com/MrBenGriffin/Knot">this link</a> for a more
+    detailed explaination.</p>
+    <h2 id="celtic-knotwork-the-ultimate-tutorial">Celtic Knotwork: The
+    Ultimate Tutorial</h2>
+    <p><a
+    href="https://web.archive.org/web/20200221221627/https://entrelacs.net/-Celtic-Knotwork-The-ultimate-tutorial">(archive.org)</a>
+    A pretty comprehensive guide to drawing celtic knotworks. Instead
+    using a grid, this method uses a graph. Each of its vertices turn
+    into a hole, and an edge a crossing:</p>
+    <figure>
+    <img src="0501trefle-e9c9b.png"
+    alt="A simple example with a trifoil" />
+    <figcaption aria-hidden="true">A simple example with a
+    trifoil</figcaption>
+    </figure>
+    <p>This is a generalization of the grid approach. While the grid
+    only affords squarish knots, this method allows for beauties like
+    this:</p>
+    <figure>
+    <img src="Five-2-a0c81.gif"
+    alt="A complex knot with five-fold symmetry, based on a pentagon tiling" />
+    <figcaption aria-hidden="true">A complex knot with five-fold
+    symmetry, based on a pentagon tiling</figcaption>
+    </figure>
+    <p>This particular knot uses the dual graph, but the idea is the
+    same.</p>
+    <h2 id="blender-knot-plugin">Blender Knot Plugin</h2>
+    <p>Based on this idea, you can turn every tiling on a plane into a
+    knot pattern!</p>
+    <figure>
+    <img src="tilings.png" alt="tiling" />
+    <figcaption aria-hidden="true">tiling</figcaption>
+    </figure>
+    <p><a
+    href="https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery">This</a>
+    is the most impressive attempt I’ve seen so far, which is a blender
+    plugin that turns arbitrary 2D and even <strong>3D</strong> objects
+    into knotty structures. You just have to see it to believe it.</p>
+    <h2 id="misc">Misc</h2>
+    <p>The paper “Celtic knotwork: Mathematical art” describes briefly
+    how to draw a celtic knot, but then goes on to study their
+    symmetries. I wonder if you use the right encoding can you turn the
+    problem of knot symmetries into</p>
+    <p><a href="https://ctan.org/tex-archive/fonts/knot">This</a> seems
+    to be yet another knot-making font for TeX, but I’ve yet to try
+    it.</p>
+  </article>
+</body>
+
+</html>
