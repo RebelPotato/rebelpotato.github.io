@@ -2,7 +2,7 @@
 title: Cards
 en: true
 created-on: 2026-04-25
-updated-on: 2026-04-25
+updated-on: 2026-04-26
 ---
 
 Pieces of thoughts, mainly for my own use. Mostly in Chinese.
