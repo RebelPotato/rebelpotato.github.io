@@ -2,7 +2,7 @@
 title: Celtic Knot Resources
 en: true
 created-on: 2026-04-26
-updated-on: 2026-04-26
+updated-on: 2026-05-03
 ---
 
 I'm doing some research on how to draw celtic knots (with computers, preferably), and it turns out much information about this subject is scattered. I'll try and list some interesting attempts here:
@@ -29,7 +29,7 @@ The character-to-grid mapping is more compositional. For example, the top row of
 
 ## Celtic Knotwork: The Ultimate Tutorial
 
-[(archive.org)](https://web.archive.org/web/20200221221627/https://entrelacs.net/-Celtic-Knotwork-The-ultimate-tutorial) A pretty comprehensive guide to drawing celtic knotworks. Instead using a grid, this method uses a graph. Each of its vertices turn into a hole, and an edge a crossing:
+A pretty comprehensive guide to drawing celtic knotworks. [(archive.org)](https://web.archive.org/web/20200221221627/https://entrelacs.net/-Celtic-Knotwork-The-ultimate-tutorial) Instead using a grid, this method uses a graph. Each of its vertices turn into a hole, and an edge a crossing:
 
 ![A simple example with a trifoil](0501trefle-e9c9b.png)
 
@@ -45,7 +45,7 @@ Based on this idea, you can turn every tiling on a plane into a knot pattern!
 
 ![tiling](tilings.png)
 
-[This](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) is the most impressive attempt I've seen so far, which is a blender plugin that turns arbitrary 2D and even **3D** objects into knotty structures. You just have to see it to believe it.
+[This](https://github.com/BorisTheBrave/celtic-knot/wiki/Gallery) is the most impressive attempt I've seen so far, a blender plugin that turns arbitrary 2D and even **3D** objects into knotty structures. You just have to see it to believe it.
 
 ## Misc
 

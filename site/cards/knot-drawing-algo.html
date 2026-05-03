@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Simple Knot-Drawing Algorithm</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <article>
+    <h1>A Simple Knot-Drawing Algorithm</h1>
+    <div>Created: <time datetime="2026-05-03">2026-05-03</time></div>
+    <div>Updated: <time datetime="2026-05-03">2026-05-03</time></div>
+    <hr>
+    <p>I think all the <a href="celtic-knots-resources/index.html">knot
+    drawing attempts</a> that I collected use this algorithm. Follow
+    these steps:</p>
+    <ol type="1">
+    <li>Tile the plane using polygons you like.</li>
+    <li>Label each edge as either a wall, a crossing or a hole.</li>
+    <li>For each edge, draw: a path parallel to it if it’s a wall, a
+    cross if it’s a crossing, and two parallel paths coming through if
+    it’s an edge.</li>
+    <li>Walk around each polygon and connect loose ends between adjacent
+    edges. Make sure that no paths cross within a polygon.</li>
+    </ol>
+    <p>Congratulations, you’ve just made your very own knot! It’s pretty
+    simple and clear once you’ve used it to draw a knot in action. The
+    two knot-making fonts are just special cases of this algorithm by
+    restricting the tiling to a square tiling.</p>
+    <p>This seems quite OK to implement on a computer…</p>
+  </article>
+</body>
+
+</html>
